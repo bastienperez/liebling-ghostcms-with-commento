@@ -167,12 +167,11 @@ into the {body} of the default.hbs template --}}
           </div>
         {{/if}}
         {{!-- Third-party comments --}}
-        {{!--
           <section class="m-comments">
             <div class="l-wrapper in-comments js-third-party-comments">
-              <!-- Paste here the provided code snippet -->
+              <script defer src="https://cdn.commento.io/js/commento.js"></script>
+              <div id="commento"></div>
             </div>
-          </section>
         --}}
       {{/post}}
       {{!-- Related posts --}}
